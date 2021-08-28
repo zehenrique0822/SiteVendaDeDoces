@@ -9,5 +9,4 @@ Tecnologias utilizadas para construção:
 
 Preview do projeto
 
-https://github.com/zehenrique0822/1885300-5_JoseHenrique/issues/1#issue-981675942
-
+<img src="https://github.com/zehenrique0822/1885300-5_JoseHenrique/issues/1#issue-981675942">
