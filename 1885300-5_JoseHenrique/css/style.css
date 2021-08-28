@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.logo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.logoname {
+  text-align: left;
+  font-size: 24px;
+  letter-spacing: 4px;
+  margin-left: 10px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family:'Concert One', cursive;
+  background: #DB926F;
+  height: 8vh;
+  font-size: 24px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 3px;
+  margin-left: 32px;
+}
+
+
+footer {
+  background-color: #DB926F;
+  border-top: 55px solid #9F5038;   
+  flex-shrink: 0;
+  border-bottom: 55px solid #9F5038;   
+}
+
+.direitos {
+  font-size: 24px;
+  text-align: center;
+}
+
+footer h1, footer h2, footer p, footer a, footer span {
+  color: #ffffff;
+  font-family:'Concert One', cursive;
+}
+
+footer h1, footer h2 {
+  font-weight: 400;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+}
+
+.footer-box {
+  width: 48%;
+  padding: 0.5%;
+  float: left;
+  display: flex;
+  justify-content:center
+}
+
+footer .wrapper:after {
+  clear:both;
+  content: "";
+  display: block;
+}
+
+.company-footer h2 {
+  margin-top: 10px;
+}
+
+.company-footer p, .company-footer h2 {
+  margin-bottom: 20px;
+}
+
+.footer-list li {
+  margin-bottom: 15px;  
+  
+}
+
+.footer-list a {
+  transition: .5s;
+}
+
+.footer-list a:hover {
+  color: #fff;
+}
+
+.footer-list li:after {
+  clear:both;
+  content: "";
+  display: block;
+}
+
+.fab {
+  font-size: 30px;
+  margin-left: 10px;
+  float: left
+}
+
+.footer-list li span{
+  float: left;
+  height: 30px;
+  line-height: 30px;
+}
+
+.footer-bottom p {
+  font-weight: 600;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.slider {
+  flex:1;
+  overflow: hidden;
+}
+
+.slider--width {
+  height: 100%;
+  display: flex;
+  transition: all ease 0.3s;
+}
+
+.slider--item {
+  width: 100vw;
+  height: 600px;
+  background-position: center;
+  background-size: cover;
+}
+
+.slider--controls {
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slider--control {
+  width: 50px;
+  height: 50px;
+  display: table-cell;
+	vertical-align: middle;
+}
+
+.h1s {
+  color: #9F5038;
+  font-family:'Concert One', cursive;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+p, #product {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-align: center;
+  color: #615A5A;
+}
+
+.p-qs {
+  font-family: 'Raleway', sans-serif;
+  font-size: 25px;
+  text-align: left;
+  color: #615A5A;
+  margin: 20px;
+
+}
+
+.produtos {  
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.bolos {
+  cursor: pointer;
+  width: 200px;
+  height: 300px;
+  background-color: #E6E2D3;
+  margin: 20px;
+  border-radius: 10%;
+}
+
+#valor {
+  color: #9F5038;
+}
+
+.quemsomosbox {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+  height: 542px;
+}
+
+.quemsomos {
+  width: 80%;
+  
+}
+
+.quemsomosimg {
+  position:absolute; top:335px; left:0px;  
+}
+
+.contatobox {
+  width: 100%;
+  display: flex; 
+  justify-content:space-between;
+  margin: 10px;
+  flex: 1;
+}
+
+.contato-div {
+  width: 50%;
+}
+
+.form-div {
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+input[type=submit]:hover {
+  background-color: #9F5038;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #DB926F;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=text],[type=number],[type=email],textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;  
+}
+
+label {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #615A5A;
+}
+
+.local {
+  width: 100%;
+  display: flex; 
+  justify-content:space-between;
+  flex: 1;
+}
+
+#maps {
+  margin: 20px;
+}
+
+.produto {  
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  flex: 1;
+}
+
+.bolo {
+  width: 50%;
+  margin: 20px;
+}
+
+.bolo-imagem {
+  margin: 25px;  
+}
